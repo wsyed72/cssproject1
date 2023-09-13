@@ -1,0 +1,128 @@
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+nav{
+    background-color: gray;
+    height: 45px;
+    display: flex;
+    justify-content: right;
+}
+ nav a {
+    text-align: center;
+    line-height: 25px;
+}
+ a {
+    text-decoration: none;
+    color: red;
+ }
+ a:hover {
+    text-decoration: underline;
+    color: green;
+ }
+nav a:hover {
+    background-color: whitesmoke;
+}
+footer {
+    background-color: black;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    text-align: center;
+    line-height: 25px;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: green;
+    background-color: whitesmoke;
+}
+.name {
+    background-color: gray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+}
+img#code{
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+img#morecode{
+    width: 200px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+img#profilepic {
+    border-radius: 40px;
+}
+.profile {
+    background-color: whitesmoke;
+    color: black;
+    padding: 0px 0px;
+}
+.bruh {
+    background-color: black;
+    color: gray;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 0px 40px;
+}
+.three-col{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: black;
+    text-align: initial;
+    gap: 20px;
+}
+.one-col {
+    display: grid;
+    grid-template-columns: auto;
+    color: whitesmoke;
+    text-align: initial;
+    gap: 20px;
+}
+.card a {
+    color: black;
+}
+.card {
+    background-color: whitesmoke;
+    padding: 0 20px;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.lang {
+    justify-content: center;
+    display: flex;
+}
+img#languages {
+    width: 100px;
+    margin: auto;
+}
+img#LE {
+    width: 200px;
+    margin: auto;
+}
+img#skills {
+    width: 100px;
+    margin: auto;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 75px;
+}
